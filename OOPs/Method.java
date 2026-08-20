@@ -1,6 +1,10 @@
 // Method overloading
 class Calculator {
-    public int add(int n1, int n2) {
+    int num; // instance variables(used in class)
+
+    public int add(int n1, int n2) // local varibles(used in method)
+    {
+        num = 5;
         return n1 + n2;
     }
 
@@ -16,10 +20,9 @@ class Calculator {
 
 }
 
-    public classMethods{
+public class Method {
 
-    public static void main(String[] args)
-      {
+    public static void main(String[] args) {
         Calculator calc = new Calculator();
         int result = calc.add(10, 20);
         System.out.println(result);
