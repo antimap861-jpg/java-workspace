@@ -14,6 +14,12 @@ class Mobile {
         // non static variable directly
 
     }
+
+    static {
+        colour = "Black";
+        System.out.println("Static block"); // runs only ones when the class loads
+        // also without any object the static block not run.
+    }
 }
 
 public class Keyword1 {
