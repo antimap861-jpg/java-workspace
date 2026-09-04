@@ -1,4 +1,4 @@
-class Demo {
+class StringTest {
     public static void main(String[] args) {
 
         String name = new String("Antima");

@@ -1,5 +1,5 @@
 //Area and memory
-class Calculator {
+class Calculator2 {
     int num = 50; // instance variables(used in class)
 
     public int add(int n1, int n2) // local varibles(used in method)
@@ -22,12 +22,12 @@ class Calculator {
 public class Stackandheap {
 
     public static void main(String[] args) {
-        Calculator calc = new Calculator();
+        Calculator2 calc = new Calculator2();
 
         int result = calc.add(10, 20);
         System.out.println(result);
 
-        Calculator calc1 = new Calculator();
+        Calculator2 calc1 = new Calculator2();
 
         System.out.print(calc.num);
         System.out.print(calc1.num);

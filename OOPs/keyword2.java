@@ -20,7 +20,7 @@ class Human {
 
 }
 
-public class Keyword2 {
+class Keyword2 {
     public static void main(String[] args) {
         Human obj1 = new Human();
         obj1.setAge(20);
