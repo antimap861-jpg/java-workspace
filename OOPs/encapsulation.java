@@ -50,3 +50,4 @@ public class encapsulation {
         System.out.println("Current balance: $" + myAccount.getBalance()); 
     }
 }
+
